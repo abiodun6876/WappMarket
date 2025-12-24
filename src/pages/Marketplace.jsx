@@ -12,7 +12,7 @@ const Marketplace = () => {
       {/* Header */}
       <div className="whatsapp-gradient text-white">
         <div className="container mx-auto px-4 py-12">
-          <h1 className="text-4xl font-bold mb-4">Business Marketplace</h1>
+          <h1 className="text-4xl font-bold mb-4">WhatsApp Business Community</h1>
           <p className="text-xl opacity-90">Discover and connect with local businesses on WhatsApp</p>
         </div>
       </div>
