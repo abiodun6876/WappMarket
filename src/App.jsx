@@ -56,9 +56,9 @@ function App() {
           
           {/* Protected pages - require login */}
           <Route 
-            path="/marketplace" 
-            element={user ? <Marketplace /> : <Navigate to="/login" />} 
-          />
+  path="/marketplace" 
+  element={<Marketplace />} 
+/>
           <Route 
             path="/register-business" 
             element={user ? <RegisterBusiness /> : <Navigate to="/login" />} 
