@@ -2,14 +2,49 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="https://img.icons8.com/color/48/000000/whatsapp--v1.png">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="apple-touch-icon" href="https://img.icons8.com/color/96/000000/whatsapp--v1.png">
-    <meta name="theme-color" content="#075E54">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WhatsApp Market</title>
+    <title>WappMarket - WhatsApp Business Marketplace</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#25D366",
+              secondary: "#128C7E",
+              accent: "#075E54",
+              light: "#DCF8C6",
+              dark: "#0C2D1F"
+            },
+            fontFamily: {
+              "poppins": ["Poppins", "sans-serif"]
+            }
+          }
+        }
+      }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      .whatsapp-gradient {
+        background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+      }
+    </style>
   </head>
-  <body>
+  <body class="font-poppins">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
