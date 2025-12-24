@@ -26,7 +26,7 @@ const Home = () => {
               Find. Chat. <span className="text-light">Do Business.</span>
             </h1>
             <p className="text-xl mb-10 opacity-90">
-              Connect directly with trusted local businesses on WhatsApp. 
+              Connect directly with trusted local whatsapp businesses around your location. 
               No websites, no apps—just human conversations that drive commerce.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
