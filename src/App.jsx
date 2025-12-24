@@ -7,7 +7,7 @@ import RegisterBusiness from './components/Business/RegisterBusiness';
 import Login from './components/Auth/Login';
 import Register from './components/Auth/Register';
 import UpdateProfile from './components/Business/UpdateProfile';
-import NavBar from './components/NavBar';
+import NavBar from "./components/Navbar";
 import Home from './pages/Home'; // Import the Home component
 
 function App() {
